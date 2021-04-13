@@ -15,7 +15,12 @@
 package xyz.niflheim.stockfish.exceptions;
 
 public class StockfishPoolException extends IllegalStateException {
-    public StockfishPoolException() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public StockfishPoolException() {
         super();
     }
 

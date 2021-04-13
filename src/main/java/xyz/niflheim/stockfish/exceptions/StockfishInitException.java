@@ -15,7 +15,12 @@
 package xyz.niflheim.stockfish.exceptions;
 
 public class StockfishInitException extends Exception {
-    public StockfishInitException() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public StockfishInitException() {
         super();
     }
 

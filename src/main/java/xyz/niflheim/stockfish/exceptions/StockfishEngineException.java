@@ -15,7 +15,12 @@
 package xyz.niflheim.stockfish.exceptions;
 
 public class StockfishEngineException extends RuntimeException {
-    public StockfishEngineException() {
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public StockfishEngineException() {
         super();
     }
 
